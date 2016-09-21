@@ -123,8 +123,8 @@ function canMoveDown(board){
 
 function nomove(board){
 	if(canMoveLeft(board)||canMoveRight(board)||canMoveUp(board)||canMoveDown(board)){
-		return true;
-	} else {
 		return false;
+	} else {
+		return true;
 	}
 }
